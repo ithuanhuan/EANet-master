@@ -1,0 +1,6 @@
+cfg.model.pool_type = 'GlobalPool'
+cfg.model.max_or_avg = 'max'
+cfg.model.em_dim = 512
+cfg.model.num_parts = 1
+cfg.model.use_ps = False
+

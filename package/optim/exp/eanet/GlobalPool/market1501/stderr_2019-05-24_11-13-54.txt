@@ -1,0 +1,36 @@
+Downloading: "https://download.pytorch.org/models/resnet50-19c8e357.pth" to imagenet_model/resnet50-19c8e357.pth
+  0%|          | 0/102502400 [00:00<?, ?it/s]  0%|          | 40960/102502400 [00:00<04:41, 363809.94it/s]  0%|          | 122880/102502400 [00:00<03:55, 435513.13it/s]  0%|          | 262144/102502400 [00:00<03:07, 544724.76it/s]  1%|          | 524288/102502400 [00:00<02:22, 713325.15it/s]  1%|          | 802816/102502400 [00:00<01:51, 912589.46it/s]  1%|1         | 1277952/102502400 [00:00<01:24, 1195705.34it/s]  2%|1         | 1777664/102502400 [00:00<01:05, 1528663.34it/s]  2%|2         | 2080768/102502400 [00:00<01:03, 1593455.10it/s]  3%|2         | 2965504/102502400 [00:01<00:47, 2111661.86it/s]  4%|3         | 3801088/102502400 [00:01<00:36, 2715702.38it/s]  5%|4         | 4661248/102502400 [00:01<00:28, 3411319.15it/s]  5%|5         | 5488640/102502400 [00:01<00:23, 4129778.63it/s]  6%|6         | 6324224/102502400 [00:01<00:19, 4851043.37it/s]  7%|6         | 7159808/102502400 [00:01<00:17, 5532290.25it/s]  8%|7         | 8003584/102502400 [00:01<00:15, 6146131.93it/s]  9%|8         | 8790016/102502400 [00:01<00:16, 5690764.53it/s] 10%|9         | 10067968/102502400 [00:01<00:13, 6791151.83it/s] 11%|#         | 10928128/102502400 [00:03<00:52, 1756073.37it/s] 11%|#1        | 11550720/102502400 [00:03<00:56, 1604645.50it/s] 12%|#1        | 12042240/102502400 [00:03<00:45, 2004919.90it/s] 12%|#2        | 12541952/102502400 [00:03<00:36, 2440303.37it/s] 13%|#2        | 13041664/102502400 [00:04<00:31, 2879448.36it/s] 13%|#3        | 13582336/102502400 [00:04<00:26, 3344222.73it/s] 14%|#3        | 14155776/102502400 [00:04<00:23, 3810890.94it/s] 14%|#4        | 14786560/102502400 [00:04<00:20, 4302129.74it/s] 15%|#4        | 15335424/102502400 [00:04<00:24, 3631215.38it/s] 16%|#6        | 16547840/102502400 [00:04<00:18, 4580274.60it/s] 17%|#6        | 17227776/102502400 [00:04<00:19, 4485827.75it/s] 17%|#7        | 17833984/102502400 [00:06<01:34, 899686.57it/s]  18%|#7        | 18268160/102502400 [00:06<01:14, 1135475.89it/s] 18%|#8        | 18661376/102502400 [00:06<00:58, 1434050.16it/s] 19%|#8        | 19054592/102502400 [00:07<00:47, 1768568.01it/s] 19%|#8        | 19464192/102502400 [00:07<00:39, 2126437.28it/s] 19%|#9        | 19898368/102502400 [00:07<00:33, 2496692.83it/s] 20%|#9        | 20357120/102502400 [00:07<00:28, 2877161.93it/s] 20%|##        | 20865024/102502400 [00:07<00:24, 3303008.49it/s] 21%|##        | 21372928/102502400 [00:07<00:22, 3666292.52it/s] 21%|##1       | 21897216/102502400 [00:07<00:20, 4019909.88it/s] 22%|##1       | 22421504/102502400 [00:07<00:18, 4300168.81it/s] 22%|##2       | 22937600/102502400 [00:07<00:17, 4505200.60it/s] 23%|##2       | 23486464/102502400 [00:07<00:16, 4760197.09it/s] 24%|##3       | 24125440/102502400 [00:08<00:15, 5145933.17it/s] 24%|##4       | 24821760/102502400 [00:08<00:13, 5567147.63it/s] 25%|##4       | 25509888/102502400 [00:08<00:13, 5885559.56it/s] 26%|##5       | 26263552/102502400 [00:08<00:12, 6273997.92it/s] 26%|##6       | 27058176/102502400 [00:08<00:11, 6659764.92it/s] 27%|##7       | 27860992/102502400 [00:08<00:10, 6992103.17it/s] 28%|##7       | 28672000/102502400 [00:08<00:10, 7241140.73it/s] 29%|##8       | 29532160/102502400 [00:08<00:09, 7590226.97it/s] 30%|##9       | 30416896/102502400 [00:08<00:09, 7891294.59it/s] 30%|###       | 31227904/102502400 [00:09<00:09, 7652231.87it/s] 31%|###1      | 32243712/102502400 [00:09<00:08, 8249788.69it/s] 33%|###2      | 33316864/102502400 [00:09<00:07, 8763493.91it/s] 34%|###3      | 34447360/102502400 [00:09<00:07, 9361109.92it/s] 34%|###4      | 35323904/102502400 [00:13<00:25, 2647902.11it/s]
+Traceback (most recent call last):
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/eanet_trainer.py", line 131, in <module>
+    trainer = EANetTrainer()
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/reid_trainer.py", line 55, in __init__
+    self.init_eval()
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/reid_trainer.py", line 119, in init_eval
+    self.create_model()
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/eanet_trainer.py", line 31, in create_model
+    self.model = Model(deepcopy(self.cfg.model))
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/model/model.py", line 19, in __init__
+    self.backbone = create_backbone(cfg.backbone)
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/model/backbone.py", line 14, in create_backbone
+    return backbone_factory[cfg.name](cfg)
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/model/resnet.py", line 165, in get_resnet
+    state_dict = model_zoo.load_url(model_urls[cfg.name], model_dir=cfg.pretrained_model_dir)
+  File "/Users/huan/anaconda3/lib/python3.6/site-packages/torch/utils/model_zoo.py", line 65, in load_url
+    _download_url_to_file(url, cached_file, hash_prefix, progress=progress)
+  File "/Users/huan/anaconda3/lib/python3.6/site-packages/torch/utils/model_zoo.py", line 88, in _download_url_to_file
+    buffer = u.read(8192)
+  File "/Users/huan/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/response.py", line 310, in read
+    data = self._fp.read(amt)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/http/client.py", line 449, in read
+    n = self.readinto(b)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/http/client.py", line 493, in readinto
+    n = self.fp.readinto(b)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt

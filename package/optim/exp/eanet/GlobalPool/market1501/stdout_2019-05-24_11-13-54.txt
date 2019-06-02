@@ -1,0 +1,2 @@
+=> Experiment Output Directory: exp/eanet/GlobalPool/market1501
+[PYTORCH VERSION]: 0.4.1

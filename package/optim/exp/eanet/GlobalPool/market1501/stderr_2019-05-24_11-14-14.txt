@@ -1,0 +1,44 @@
+Downloading: "https://download.pytorch.org/models/resnet50-19c8e357.pth" to imagenet_model/resnet50-19c8e357.pth
+  0%|          | 0/102502400 [00:00<?, ?it/s]  0%|          | 40960/102502400 [00:00<04:23, 388932.09it/s]  0%|          | 131072/102502400 [00:00<03:39, 466206.08it/s]  0%|          | 278528/102502400 [00:00<02:55, 583490.84it/s]  1%|          | 557056/102502400 [00:00<02:13, 763668.63it/s]  1%|          | 819200/102502400 [00:00<01:45, 963550.78it/s]  1%|1         | 1310720/102502400 [00:00<01:19, 1266995.24it/s]  2%|1         | 1785856/102502400 [00:00<01:03, 1595527.53it/s]  2%|2         | 2088960/102502400 [00:00<00:57, 1758973.23it/s]  3%|2         | 2940928/102502400 [00:00<00:43, 2305908.35it/s]  4%|3         | 3842048/102502400 [00:01<00:33, 2961343.44it/s]  4%|3         | 4055040/102502400 [00:02<01:05, 1509903.86it/s]
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1664, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1658, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1068, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/eanet_trainer.py", line 131, in <module>
+    trainer = EANetTrainer()
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/reid_trainer.py", line 55, in __init__
+    self.init_eval()
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/reid_trainer.py", line 119, in init_eval
+    self.create_model()
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/optim/eanet_trainer.py", line 31, in create_model
+    self.model = Model(deepcopy(self.cfg.model))
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/model/model.py", line 19, in __init__
+    self.backbone = create_backbone(cfg.backbone)
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/model/backbone.py", line 14, in create_backbone
+    return backbone_factory[cfg.name](cfg)
+  File "/Users/huan/code/PycharmProjects/EANet-master/package/model/resnet.py", line 165, in get_resnet
+    state_dict = model_zoo.load_url(model_urls[cfg.name], model_dir=cfg.pretrained_model_dir)
+  File "/Users/huan/anaconda3/lib/python3.6/site-packages/torch/utils/model_zoo.py", line 65, in load_url
+    _download_url_to_file(url, cached_file, hash_prefix, progress=progress)
+  File "/Users/huan/anaconda3/lib/python3.6/site-packages/torch/utils/model_zoo.py", line 88, in _download_url_to_file
+    buffer = u.read(8192)
+  File "/Users/huan/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/response.py", line 310, in read
+    data = self._fp.read(amt)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/http/client.py", line 449, in read
+    n = self.readinto(b)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/http/client.py", line 493, in readinto
+    n = self.fp.readinto(b)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "/Users/huan/anaconda3/python.app/Contents/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+KeyboardInterrupt
