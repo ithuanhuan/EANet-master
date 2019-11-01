@@ -5,6 +5,6 @@ torch==1.0.0
 easydict==1.9
 torchvision==0.2.1
 tqdm==4.28.1
-Pillow==5.3.0
+Pillow==6.2.0
 scikit-learn==0.18.1
 tensorboardX==1.5
